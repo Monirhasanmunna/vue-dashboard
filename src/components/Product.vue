@@ -39,11 +39,12 @@ onBeforeMount(()=>{
             <v-row>
                 <v-col cols="4">
                     <v-skeleton-loader
-                    class="border"
+                    elevation="2"
                     boilerplate
-                    type="image, list-item-two-line"
-                    max-width="800"
-                    height="600"
+                    class="border"
+                    type="image,list-item-three-line"
+                    width="600"
+                    height="650"
                     v-if="loading"
                     >
                     </v-skeleton-loader>
@@ -52,7 +53,7 @@ onBeforeMount(()=>{
                        
                         <v-card
                             class="mb-5"
-                            width="400"
+                            width="600"
                         >
                             <v-img
                             class="align-end text-white"
